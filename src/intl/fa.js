@@ -4,15 +4,15 @@ export default {
   appDescription: 'رابط کاربری فارسی و تحت وب برای ماستودون که با در نظر گرفتن سرعت و سادگی ساخته شده است.',
   homeDescription: `
     <p>
-      Pinafore is a web client for
-      <a rel="noopener" target="_blank" href="https://joinmastodon.org">Mastodon</a>,
-      designed for speed and simplicity.
+     پینافور برنامه‌ای فارسی برای
+      <a rel="noopener" target="_blank" href="https://joinmastodon.org"> ماستودون </a>,
+      است که با در نظر گرفتن سرعت و سادگی ساخته شده است.
     </p>
     <p>
-      Read the
+      برای آموزش اتصال
       <a rel="noopener" target="_blank"
-         href="https://nolanlawson.com/2018/04/09/introducing-pinafore-for-mastodon/">introductory blog post</a>,
-      or get started by logging in to an instance:
+         href="https://nolanlawson.com/2018/04/09/introducing-pinafore-for-mastodon/">مطلب مقدماتی</a>,
+     را بخوانید یا از طریق دکمه‌ی زیر به اکانت خود وارد شوید:
     </p>`,
   logIn: 'ورود',
   footer: `
@@ -25,7 +25,9 @@ export default {
       <a rel="noopener" target="_blank"
          href="https://github.com/nolanlawson/pinafore/blob/master/LICENSE">AGPL License</a>
          انتشار یافته است.
-      Here is the <a href="/settings/about#privacy-policy" rel="prefetch">privacy policy</a>.
+      می‌توانید در
+       <a href="/settings/about#privacy-policy" rel="prefetch">اینجا</a>
+       قوانین حریم شخصی را مشاهده کنید.
     </p>
   `,
   // Generic UI
@@ -96,13 +98,13 @@ export default {
   directMessagesNotLoggedIn: 'بعد از ورود، پیام‌های شخصی در اینجا نمایش داده می‌شود.',
   favoritesNotLoggedIn: 'بعد از ورود، پسندیده شده‌های شما در اینجا نمایش داده می‌شود.',
   federatedTimelineNotLoggedIn: 'بعد از ورود، خط‌زمانی فدراسیون در اینجا نمایش داده می‌شود.',
-  localTimelineNotLoggedIn: 'Your local timeline will appear here when logged in.',
-  searchNotLoggedIn: 'You can search once logged in to an instance.',
-  communityNotLoggedIn: 'Community options appear here when logged in.',
-  listNotLoggedIn: 'A list will appear here when logged in.',
+  localTimelineNotLoggedIn: 'بعد از ورود، خط‌زمانی محلی در اینجا نمایش داده می‌شود.',
+  searchNotLoggedIn: 'بعد از ورود، شما میتوانید در اینجا به جستجو بپردازید.',
+  communityNotLoggedIn: 'بعد از ورود، گزینه‌های جامعه در اینجا قابل استفاده خواهد بود.',
+  listNotLoggedIn: 'بعد از ورود، لیستی در اینجا نمایش داده می‌شود.',
   notificationsNotLoggedIn: 'بعد از ورود، اعلان‌های شما در اینجا نمایش داده می‌شود.',
   notificationMentionsNotLoggedIn: 'بعد از ورود، اعلان‌های اشارات به شما در اینجا نمایش داده می‌شود.',
-  statusNotLoggedIn: 'A toot thread will appear here when logged in.',
+  statusNotLoggedIn: 'بعد از ورود،رشته‌ی بوق در اینجا نمایش داده می‌شود.',
   tagNotLoggedIn: 'بعد از ورود، خط‌زمانی هشتگ در اینجا نمایش داده می‌شود.',
   // Notification subpages
   filters: 'فیلتر‌ها',
@@ -119,8 +121,8 @@ export default {
   globalHotkeys: `
     {leftRightChangesFocus, select,
       true {
-        <li><kbd>→</kbd> to go to the next focusable element</li>
-        <li><kbd>←</kbd> to go to the previous focusable element</li>
+        <li><kbd>→</kbd> رفتن به المنت قابل فوکوس بعدی</li>
+        <li><kbd>←</kbd> رفتن به المنت قابل فوکوس قبلی</li>
       }
       other {}
     }
@@ -139,7 +141,7 @@ export default {
     <li><kbd>g</kbd> + <kbd>l</kbd> خط‌زمانی محلی</li>
     <li><kbd>g</kbd> + <kbd>t</kbd> خط‌زمانی فدریتد</li>
     <li><kbd>g</kbd> + <kbd>c</kbd> رفتن به صفحه‌ی جامعه</li>
-    <li><kbd>g</kbd> + <kbd>d</kbd> رفتن به صفحه‌ی بحث‌ها</li>
+    <li><kbd>g</kbd> + <kbd>d</kbd> رفتن به صفحه‌ی گفتگو‌ها</li>
     <li><kbd>h</kbd> یا <kbd>?</kbd> نمایش راهنما</li>
     <li><kbd>Backspace</kbd> رفتن به عقب یا بستن پنجره</li>
   `,
@@ -190,14 +192,14 @@ export default {
   // Status composition
   overLimit: '{count} {count, plural, =1 {کاراکتر} other {کاراکتر}} بیش از محدودیت ',
   underLimit: '{count} {count, plural, =1 {کاراکتر} other {کاراکتر}} مانده',
-  composeStatus: 'Compose toot',
+  composeStatus: 'ساخت بوق',
   postStatus: 'بوق!',
   contentWarning: 'هشدار محتوا',
-  dropToUpload: 'Drop to upload',
-  invalidFileType: 'Invalid file type',
+  dropToUpload: 'برای بارگذاری رها کنید',
+  invalidFileType: 'نوع پرونده نامعتبر است',
   composeLabel: "چه چیزی در ذهن دارید؟",
   autocompleteDescription: 'When autocomplete results are available, press up or down arrows and enter to select.',
-  mediaUploads: 'Media uploads',
+  mediaUploads: 'بارگذاری رسانه',
   edit: 'ویرایش',
   delete: 'حذف',
   description: 'توضیحات',
@@ -223,7 +225,7 @@ export default {
   postPrivacyLabel: 'تغییر تنظیمات حریم شخصی (فعلی: {label})',
   addContentWarning: 'اضافه کردن هشدار محتوا',
   removeContentWarning: 'حذف هشدار محتوا',
-  altLabel: 'Describe for the visually impaired',
+  altLabel: 'برای افراد کم بینا توصیف کنید',
   extractText: 'استخراج متن از عکس',
   extractingText: 'استخراج متن…',
   extractingTextCompletion: 'استخراج متن ({percent}% کامل شده)…',
@@ -258,28 +260,28 @@ export default {
     true {(فعلی)}
     other {}
   }`,
-  previewFocalPoint: 'Preview (focal point)',
-  enterFocalPoint: 'Enter the focal point (X, Y) for this media',
+  previewFocalPoint: 'پیش‌ مایش (نقطه‌ی کانونی)',
+  enterFocalPoint: 'نقطه‌ی کانونی (X, Y) را برای این رسانه وارد کنید',
   muteNotifications: 'Mute notifications as well',
-  muteAccountConfirm: 'Mute {account}?',
-  mute: 'Mute',
-  unmute: 'Unmute',
-  zoomOut: 'Zoom out',
-  zoomIn: 'Zoom in',
+  muteAccountConfirm: 'بیصدا کردن {account}؟',
+  mute: 'بیصدا',
+  unmute: 'باصدا',
+  zoomOut: 'کوچک نمایی',
+  zoomIn: 'بزرگ نمایی',
   // Reporting
-  reportingLabel: 'You are reporting {account} to the moderators of {instance}.',
+  reportingLabel: 'شما در حال گزارش {account} به گرداننده‌ی گره {instance} هستید.',
   additionalComments: 'Additional comments',
   forwardDescription: 'Forward to the moderators of {instance} as well?',
   forwardLabel: 'Forward to {instance}',
   unableToLoadStatuses: 'Unable to load recent toots: {error}',
-  report: 'Report',
-  noContent: '(No content)',
+  report: 'گزارش',
+  noContent: '(بدون محتوا)',
   noStatuses: 'بوقی برای بازنشر وجود ندارد',
   // Status options
   unpinFromProfile: 'Unpin from profile',
   pinToProfile: 'Pin to profile',
-  muteConversation: 'Mute conversation',
-  unmuteConversation: 'Unmute conversation',
+  muteConversation: 'باصدا کردن گفتگو',
+  unmuteConversation: 'بیصدا کردن گفتگو',
   bookmarkStatus: 'Bookmark toot',
   unbookmarkStatus: 'Unbookmark toot',
   deleteAndRedraft: 'حدف و پیشنویس',
@@ -303,16 +305,16 @@ export default {
     true {(follow requested)}
     other {}
   }`,
-  unblock: 'Unblock',
+  unblock: 'لغو مسدود سازی',
   nameAndFollowing: 'Name and following',
   clickToSeeAvatar: 'Click to see avatar',
   opensInNewWindow: '{label} (opens in new window)',
-  blocked: 'Blocked',
+  blocked: 'مسدود شده‌ها',
   domainHidden: 'Domain hidden',
   muted: 'Muted',
   followsYou: 'شما را پی‌میگیرد.',
-  avatarForAccount: 'Avatar for {account}',
-  fields: 'Fields',
+  avatarForAccount: 'آواتار برای {account}',
+  fields: 'زمینه‌ها',
   accountHasMoved: '{account} has moved:',
   profilePageForAccount: 'Profile page for {account}',
   // About page
@@ -364,22 +366,22 @@ export default {
   allSensitive: 'حساس انگاشتن همه رسانه‌ها',
   largeMedia: 'Show large inline images and videos',
   autoplayGifs: 'پخش خودکار گیف‌ها',
-  hideCards: 'Hide link preview cards',
-  underlineLinks: 'Underline links in toots and profiles',
-  accessibility: 'Accessibility',
-  reduceMotion: 'Reduce motion in UI animations',
-  disableTappable: 'Disable tappable area on entire toot',
-  removeEmoji: 'Remove emoji from user display names',
-  shortAria: 'Use short article ARIA labels',
-  theme: 'Theme',
-  themeForInstance: 'Theme for {instance}',
+  hideCards: 'پنهان کردن کارت‌های پیش نمایش پیوند',
+  underlineLinks: 'افزودن زیرخط برای پیوندها در بوق‌ها و صفحات مشخصات',
+  accessibility: 'دسترسی پذیری',
+  reduceMotion: 'کاهش نمایش انیمیشن در رابط کاربری',
+  disableTappable: 'غیر فعال اثر لمس روی بوق‌ها',
+  removeEmoji: 'پاک کردن شکلک‌ها از نام کاربران هنگام نمایش',
+  shortAria: 'استفاده از برچسب‌های ARIA در گفتارهای کوتاه',
+  theme: 'تِم',
+  themeForInstance: 'تِم برای {instance}',
   disableCustomScrollbars: 'Disable custom scrollbars',
-  preferences: 'Preferences',
+  preferences: 'ترجیحات',
   hotkeySettings: 'تنظیمات کلید‌های میان‌بر',
-  disableHotkeys: 'Disable all hotkeys',
+  disableHotkeys: 'غیر فعال سازی تمام کلید‌های میان‌بر',
   leftRightArrows: 'Left/right arrow keys change focus rather than columns/media',
-  guide: 'Guide',
-  reload: 'Reload',
+  guide: 'راهنما',
+  reload: 'بارگیری مجدد',
   // Wellness settings
   wellness: 'سلامتی',
   wellnessSettings: 'تنظیمات سلامتی',
@@ -408,7 +410,7 @@ export default {
              load more content on demand.`,
   disableInfiniteScrollPost: '',
   // Instance settings
-  loggedInAs: 'Logged in as',
+  loggedInAs: 'وارد شده به عنوان',
   homeTimelineFilters: 'Home timeline filters',
   notificationFilters: 'Notification filters',
   pushNotifications: 'Push notifications',
@@ -416,20 +418,20 @@ export default {
   storageError: `It seems Pinafore cannot store data locally. Is your browser in private mode
           or blocking cookies? Pinafore stores all data locally, and requires LocalStorage and
           IndexedDB to work correctly.`,
-  javaScriptError: 'You must enable JavaScript to log in.',
+  javaScriptError: 'برای ورود شما نیاز به فعال سازی جاوااسکریپت داید.',
   enterInstanceName: 'نام گره را وارد کنید.',
-  instanceColon: 'Instance:',
+  instanceColon: 'گره:',
   // Custom tooltip, concatenated together
-  getAnInstancePre: "Don't have an",
-  getAnInstanceText: 'instance',
+  getAnInstancePre: "آیا در",
+  getAnInstanceText: 'گره‌',
   getAnInstanceDescription: 'An instance is your Mastodon home server, such as mastodon.social or cybre.space.',
   getAnInstancePost: '?',
-  joinMastodon: 'Join Mastodon!',
-  instancesYouveLoggedInTo: "Instances you've logged in to:",
-  addAnotherInstance: 'Add another instance',
+  joinMastodon: 'به ماستودون بپیوندید!',
+  instancesYouveLoggedInTo: "گره‌ای که شما با آن وارد شدید:",
+  addAnotherInstance: 'اضافه کردن گره دیگر',
   youreNotLoggedIn: "You're not logged in to any instances.",
   currentInstanceLabel: `{instance} {current, select,
-    true {(current instance)}
+    true {(گره فعلی)}
     other {}
   }`,
   // Link text
@@ -442,8 +444,8 @@ export default {
   showRingDescription: `The focus ring is the outline showing the currently focused element. By default, it's only
     shown when using the keyboard (not mouse or touch), but you may choose to always show it.`,
   showRingPost: '',
-  instances: 'Instances',
-  addInstance: 'Add instance',
+  instances: 'گره',
+  addInstance: 'اضافه کردن گره',
   homeTimelineFilterSettings: 'Home timeline filter settings',
   showReblogs: 'نمایش بازبوق‌ها',
   showReplies: 'نمایش پاسخ‌ها',
@@ -459,7 +461,7 @@ export default {
   deniedPush: 'You have denied permission to show notifications.',
   pushNotificationsNote: 'Note that you can only have push notifications for one instance at a time.',
   pushSettings: 'Push notification settings',
-  newFollowers: 'New followers',
+  newFollowers: 'پیگیر‌های جدید',
   reblogs: 'بازبوق‌ها',
   pollResults: 'نتیجه‌ی نظرسنجی',
   needToReauthenticate: 'You need to reauthenticate in order to enable push notification. Log out of {instance}?',
@@ -477,10 +479,10 @@ export default {
     true {animated}
     other {}
   } image: {description}`,
-  playVideoOrAudio: `Play {audio, select,
-    true {audio}
-    other {video}
-  }: {description}`,
+  playVideoOrAudio: `پخش {audio, select,
+    true {صدا}
+    other {ویدیو}
+  }: {توضیحات}`,
   accountFollowedYou: '{name} followed you, {account}',
   reblogCountsHidden: 'Boost counts hidden',
   favoriteCountsHidden: 'Favorite counts hidden',
@@ -548,23 +550,23 @@ export default {
   }`,
   // Status interactions
   clickToShowThread: '{time} - click to show thread',
-  showMore: 'Show more',
-  showLess: 'Show less',
-  closeReply: 'Close reply',
+  showMore: 'نمایش بیشتر',
+  showLess: 'نمایش کمتر',
+  closeReply: 'بستن پاسخ',
   cannotReblogFollowersOnly: 'Cannot be boosted because this is followers-only',
   cannotReblogDirectMessage: 'Cannot be boosted because this is a direct message',
   reblog: 'بازبوق',
   reply: 'پاسخ',
   replyToThread: 'Reply to thread',
   favorite: 'پسندیدن',
-  unfavorite: 'Unfavorite',
+  unfavorite: 'لغو پسندیدن',
   // timeline
-  loadingMore: 'Loading more…',
+  loadingMore: 'بارگیری بیشتر…',
   loadMore: 'بارگیری بیشتر',
   showCountMore: 'نمایش {count} مورد دیگر',
   nothingToShow: 'چیزی برای نمایش دادن نیست.',
   // status thread page
-  statusThreadPage: 'Toot thread page',
+  statusThreadPage: 'صفحه‌ی رشته‌ی بوق',
   status: 'بوق',
   // toast messages
   blockedAccount: 'Blocked account',
